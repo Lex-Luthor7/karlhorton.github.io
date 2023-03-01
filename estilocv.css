@@ -1,0 +1,106 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+#col-0 {
+    margin-inline-start: 23%;
+    margin-inline-end: 23%;
+}
+
+#col-1 {
+    width: 25%;
+    float: left;
+    margin-inline-start: 23%
+}
+
+#col-2 {
+    width: 28%;
+    float: right;
+    margin-inline-end: 23%
+}
+
+
+#titulo{
+    text-align: center;
+    font-size: 200%;
+    border-style: double;
+    padding: 1%;
+    margin-inline-start: 23%;
+    margin-inline-end: 23.2%;
+    color: rgba(255, 255, 255, 0.788);
+    font-family: michroma;
+    background: url(https://img.freepik.com/foto-gratis/fondo-gris-pintado-textura-metal_125540-779.jpg);
+}
+
+
+#img{
+    border-radius: 47%;
+    width: 21%;
+}
+
+#gif{
+    width: 20%;
+    margin-top: 2%;
+    margin-inline-start: 22%;
+    margin-inline-end: 22%;
+}
+
+
+#lista{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 97%;
+    color: rgb(90 90 90);
+    text-align: justify;
+    margin-inline-end: 9%;
+}
+
+#parrafo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 97%;
+    color: rgb(90 90 90);
+    text-align: justify;
+    margin-inline-end: 9%;
+}
+
+
+.buttonc{
+    border-radius: 0.3cm;
+    border: solid grey;
+    color: rgba(255, 255, 255, 0.788);
+    width: 17%;
+    padding: 1%;
+    font-size: 80%;
+    font-family: Michroma;
+    transition: width 1s, height 2s, font-size 1s;
+    background-color: white;
+    cursor: pointer;
+    background: url(https://img.freepik.com/foto-gratis/fondo-gris-pintado-textura-metal_125540-779.jpg);
+}
+
+
+.buttonc:hover {
+  width: 20%;
+  height: 30%;
+  font-size: 90%;
+  background-color: #DADBDD;
+  border-radius: 0.3cm;
+}
+
+
+#datosp{
+    color:rgb(56 56 56 / 79%);
+    font-size: 140%;
+    font-family: michroma;
+    
+}
+
+#borde{
+    border-style: groove;
+    padding: 1%;
+    background: url(https://img.freepik.com/foto-gratis/fondo-superficie-piedra_53876-31787.jpg);
+}
+
+
+/*<button id="button1" style="display: inline" class="buttonc" type="button" onclick="myfunction()">Mi Curriculum</button>*/
